@@ -12,7 +12,7 @@ pay attension to captital L which means the total number of layers
 $$\delta^l = ((w^{l+1})^T\delta^{l+1}) \odot \sigma'(z^l)$$
 ####about bias
 $$\frac{\partial C}{\partial b^l_j} = \delta^l_j$$
-you can regard it as
+you can understand it as
 $$a_0^{l-1} = 1$$
 as an additional "bias node"
 so that it is consistent with the equation below
@@ -20,3 +20,4 @@ so that it is consistent with the equation below
 $$\frac{\partial C}{w^l_{jk}} = a^{l-1}_k\delta^l_j$$
 or
 $$\frac{\partial C}{\partial w} = a_{in}\delta{out}$$
+###spiring codes
