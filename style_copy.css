@@ -1,0 +1,14 @@
+.markdown-preview.markdown-preview {
+  h1 {
+    font-size: 2em;
+    margin: 0.5em 0em 0.5em;
+  }
+  h2, h3, h4, h5,{
+    font-size: 1.3em;
+    margin: 0.5em 0em 0.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
