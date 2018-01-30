@@ -27,3 +27,36 @@ Unshielded twisted pair
 fiber-optic cable, a twisted-pair copper wire, or a coaxial cable
 ### unguided media
 wireless LAN or a digital satellite channel
+## type of delay
+### Processing Delay
+The time required to examine the packet’s header and determine where to direct the packet is part of the processing delay
+(level of $\mu s$)
+### queuing delay
+### Transmission Delay
+packet L bits
+transmission rate of the link R bits/sec
+The transmission delay is $$D = \frac{L}{R}$$. This is the amount of time required to **push** (that is, transmit) all of the packet’s bits into the link
+a function of packet **length** and **transmission rate**.
+*Noting to do with distance*.
+### Propagation Delay
+at the speed equal to or less than light.
+### name of packet
+(in Internet protocol stack)
+- application layer : message
+- transport layer : segment
+- network layer : datagram
+- link layer : frame
+### socket
+A process sends messages into, and receives messages from, the network through a software **interface** called a socket.
+an **API** between the application and the network
+## traffic intensity
+let $a$ denote the average rate at which packets arrive at the queue (packets/sec)
+$$I = \frac{aL}{R}$$
+$I$ is **traffic intensity**
+## transport layer
+transport protocols
+- TCP
+- UDP
+## addressing in application layer
+- IP address : identify the host
+- port number : identify the process(more specifically, the socket)
