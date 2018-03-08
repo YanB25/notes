@@ -18,6 +18,8 @@ fiber to the home
 optical line terminator  
 ### HFC
 Hybrid Fiber－Coaxial 混合光纤同轴电缆网
+### Persistent(default) and None-persistent connnection
+request/response pair be sent over a separate TCP connection, or the same TCP connection?
 ### twisted-pair cropper wire
 least expensive and most commonly used guided media
 ## UTP
@@ -49,6 +51,12 @@ at the speed equal to or less than light.
 ### socket
 A process sends messages into, and receives messages from, the network through a software **interface** called a socket.
 an **API** between the application and the network
+### Cookies
+Cookies, defined in [RFC 6265], allow sites to keep
+track of users.(identify user)
+### proxy server
+a web cache is also called a proxy server.
+A Web cache is a network entity that satisfies HTTP requests on the behalf of an origin Web server
 ## traffic intensity
 let $a$ denote the average rate at which packets arrive at the queue (packets/sec)
 $$I = \frac{aL}{R}$$
@@ -60,3 +68,9 @@ transport protocols
 ## addressing in application layer
 - IP address : identify the host
 - port number : identify the process(more specifically, the socket)
+## HTTP request method
+- get:
+- post: include body entity
+- head: server does not send back the request obj(used when debuging)
+- put: used to upload 
+- delete: used to delete object in the server
